@@ -12,64 +12,83 @@
 </head>
 
 <body>
-    <div class="container">
-   
-        <section class="top-content">
-            <div class="text-container">
-                <h2>The Future</h2>
-                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
-            </div>
-            <div class="text-container">
-                <h2>The Past</h2>
-                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
-            </div>
-        </section>
-        
-        <section class="middle-content">
-        
-            <h2>Why Did It Have To Be Boxes...</h2>
-            
-            <div class="boxes">
-                <div class="box">Box 1</div>
-                <div class="box">Box 2</div>
-                <div class="box">Box 3</div>
-                <div class="box">Box 4</div>
-                <div class="box">Box 5</div>
-                <div class="box">Box 6</div>
-                <div class="box">Box 7</div>
-                <div class="box">Box 8</div>
-                <div class="box">Box 9</div>
-                <div class="box">Box 10</div>
-            </div>
-        
-        </section>
+  <div class="container">
+    <nav class="navigation">
+      <a href="index.html"><img class="navigation__logo" src="img/lambda-black.png" alt="Black Lambda Logo" /></a>
+      <div class="navigation__links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#">Products</a>
+        <a href="#">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
 
-        <section class="bottom-content">
+    <section class="top-content">
+      <img class="top-content__pic" src="img/jumbo.jpg" alt="Internet Highway" />
+      <div class="text-container">
+        <h2>The Future</h2>
+        <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
+      </div>
+      <div class="text-container">
+        <h2>The Past</h2>
+        <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
+      </div>
+    </section>
+    
+    <section class="middle-content">
+      <h2>Why Did It Have To Be Boxes...</h2>
+      <div class="boxes">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box">Box 4</div>
+        <div class="box">Box 5</div>
+        <div class="box">Box 6</div>
+        <div class="box">Box 7</div>
+        <div class="box">Box 8</div>
+        <div class="box">Box 9</div>
+        <div class="box">Box 10</div>
+      </div>
+    </section>
 
-            <div class="text-container">
-                <h2>That's</h2>
-                <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
-            </div>
-            <div class="text-container">
-                <h2>No</h2>
-                <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
-            </div>
-            <div class="text-container">
-                <h2>Moon</h2>
-                <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
-            </div>
-
-        </section>
-        
-        <footer>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Products</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
-            </nav>
-        </footer>
-    </div><!-- container -->        
+    <section class="bottom-content">
+      <div class="text-container">
+        <h2>That's</h2>
+        <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
+      </div>
+      <div class="text-container">
+        <h2>No</h2>
+        <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
+      </div>
+      <div class="text-container">
+        <h2>Moon</h2>
+        <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
+      </div>
+    </section>
+    
+    <footer>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#">Products</a>
+        <a href="#">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </footer>
+  </div><!-- container -->        
 </body>
 </html>
+<!--
+If you had to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML is a way to give meaning to our code so our content is better understood by the computer. This is different from presentational HTML like divs or spans, which helps with the structure of our HTML file but doesn't necessarily describe our content. Semantic HTML is important for computer algorithms to understand our code, search engine optimization rankings, and should follow W3C HTML5 standards for all developers to understand.
+Describe some differences between display: block; and display: inline;.
+Block elements take up the whole width and always starts on a new line. Some examples of block level elements are div tags, section tags, and others.
+Inline elements only takes up as much width as necessary and does not start on a new line. Two examples of this are anchor tags and span tags but there are others.
+What are the 4 areas of the box model?
+The four areas in content, padding, border, and margin. Each plays a part on how much space can possibly take up if given pixels to expand in CSS.
+While using flexbox, what axis are you using when you use the property: align-items: center?
+Align-items works on the cross axis. Generally this is top to bottom if the main axis is default.
+What is the git command to commit staged changes as well as write a message?
+Write git commit -m <message> to commit items in the staging area
+-->

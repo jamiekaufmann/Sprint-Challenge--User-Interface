@@ -33,13 +33,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is a way to give meaning to our code so our content is better understood by the computer. This is different from presentational HTML like divs or spans, which helps with the structure of our HTML file but doesn't necessarily describe our content. Semantic HTML is important for computer algorithms to understand our code, search engine optimization rankings, and should follow W3C HTML5 standards for all developers to understand
+
 2. What are the 4 areas of the box model?
+
+The four areas in content, padding, border, and margin. Each plays a part on how much space can possibly take up if given pixels to expand in CSS.
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Align-items works on the cross axis. Generally this is top to bottom if the main axis is default.
+
+
 4. Explain why git is valuable to a team of developers.
 
+Git is valuable to developers bc it gives us the access to real time version control and collaboration, basically, way for a team of people to create, manage, test, and add without compromising the original project.
+
 5. Define mobile-first design in your own words.
+
+Mobile first design is a strategy where you create for the smallest screen first and working up to larger screens in order to deliver the right user experience to the correct devices
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
